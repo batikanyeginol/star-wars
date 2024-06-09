@@ -76,3 +76,20 @@ body {
     margin: 10px;
     box-sizing: border-box;
 }
+
+#filtersContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.filter-item {
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.filter-item input {
+    margin-right: 10px;
+}
