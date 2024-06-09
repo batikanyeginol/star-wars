@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+#toggleButton {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #4caf50;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#toggleButton.btn-danger {
+    background-color: #f44336;
+}
+
+#toggleButton:hover {
+    background-color: #45a049;
+}
+
+#toggleButton.btn-danger:hover {
+    background-color: #e53935;
+}
+
+.card {
+    background-color: #1c1c1c;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+}
+
+.card img {
+    border-bottom: 1px solid #333;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.card-text {
+    font-size: 18px;
+    color: #ddd;
+}
+
+#characterContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+}
